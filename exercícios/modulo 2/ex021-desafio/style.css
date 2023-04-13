@@ -50,7 +50,15 @@ nav {
     display: block;
     text-align: center;
     margin: auto;
+    
 }
+
+.sticky{
+    position: sticky;
+    top: 0;
+}
+
+
 
 main {
     background-color: rgba(245, 230, 90, 0.678);
