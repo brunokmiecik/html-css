@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique dolor eius eveniet repellat dicta minus magnam aliquam rem, excepturi, quos doloribus vitae! Veniam, quam accusamus pariatur ipsa iste id sunt?</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus error, iure accusantium expedita beatae minima dolor commodi eius, cupiditate eaque nobis sit. Exercitationem, ullam! Dicta dolores id ullam nisi rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto saepe fuga, corrupti ipsum ut harum autem nostrum, neque cum iure tempore nulla, numquam ducimus quisquam quis nisi optio suscipit tenetur?</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1> <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus error, iure accusantium expedita beatae minima dolor commodi eius, cupiditate eaque nobis sit. Exercitationem, ullam! Dicta dolores id ullam nisi rerum.</p><img src='imagens/liverpool-200.jpg'>">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque id rerum vel dicta nisi expedita illo vero et, porro reprehenderit provident alias similique ipsam aut voluptate sint veniam, quod nostrum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo facere nam, voluptatem esse labore beatae optio dignissimos nobis repellendus similique eveniet eos voluptate officiis reprehenderit architecto! At fugit a dicta.</p>
+</body>
+</html>
